@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "RobotoBold";
+  src: url("../fonts/RobotoBold.eot");
+  src: url("../fonts/RobotoBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/RobotoBold.woff") format("woff"),
+  url("../fonts/RobotoBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/RobotoRegular.woff") format("woff"),
+  url("../fonts/RobotoRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "RobotoLight"; */
+@font-face {
+  font-family: "RobotoLight";
+  src: url("../fonts/RobotoLight.eot");
+  src: url("../fonts/RobotoLight.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/RobotoLight.woff") format("woff"),
+  url("../fonts/RobotoLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "RobotoMedium"; */
+@font-face {
+  font-family: "RobotoMedium";
+  src: url("../fonts/RobotoMedium.eot");
+  src: url("../fonts/RobotoMedium.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/RobotoMedium.woff") format("woff"),
+  url("../fonts/RobotoMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.main {
+  background: #19b5ffcc;
+  background-image: url("../images/phone.png");
+  background-size: cover;
+}
+
+h1 {
+  font-family: "RobotoLight";
+  font-size: 5em;
+}
+
+h2 {
+  font-family: "RobotoRegular";
+  font-size: 1.2em;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.description {
+  width: 50%;
+  float: left;
+  margin: 0 20px;
+}
+
+.download-button {
+  text-decoration: none;
+}
+
+.download-button img {
+  width: 20%;
+}
+
+.features {
+  background: #f0ebe9ff;
+}
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.slide-1 .left, .slide-3 .left {
+  width: 30%;
+}
+
+.slide-1 .right, .slide-3 .right {
+  width: 60%;
+  margin: 20% auto;
+}
+
+.slide-2 .right, .slide-4 .right {
+  width: 30%;
+}
+
+.slide-2 .left, .slide-4 .left {
+  width: 60%;
+  margin: 20% auto;
+}
+
+.content p {
+  font-family: "RobotoMedium";
+  font-size: 1.2em;
+}
+
+.screens {
+  width: 300px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+}
