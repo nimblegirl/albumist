@@ -38,13 +38,104 @@
   font-weight: normal;
 }
 
+/* font-family: "RalewayRegular"; */
+@font-face {
+    font-family: "RalewayRegular";
+    src: url("../fonts/RalewayRegular.eot");
+    src: url("../fonts//RalewayRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayRegular.woff") format("woff"),
+    url("../fonts/RalewayRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RalewayThin"; */
+@font-face {
+    font-family: "RalewayThin";
+    src: url("../fonts/RalewayThin.eot");
+    src: url("../fonts/RalewayThin.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayThin.woff") format("woff"),
+    url("../fonts/RalewayThin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RalewayExtraLight"; */
+@font-face {
+    font-family: "RalewayExtraLight";
+    src: url("../fonts/RalewayExtraLight.eot");
+    src: url("../fonts/RalewayExtraLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayExtraLight.woff") format("woff"),
+    url("../fonts/RalewayExtraLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RalewayLight"; */
+@font-face {
+    font-family: "RalewayLight";
+    src: url("../fonts/RalewayLight.eot");
+    src: url("../fonts/RalewayLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayLight.woff") format("woff"),
+    url("../fonts/RalewayLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RalewayMedium"; */
+@font-face {
+    font-family: "RalewayMedium";
+    src: url("../fonts/RalewayMedium.eot");
+    src: url("../fonts/RalewayMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayMedium.woff") format("woff"),
+    url("../fonts/RalewayMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RalewaySemiBold"; */
+@font-face {
+    font-family: "RalewaySemiBold";
+    src: url("../fonts/RalewaySemiBold.eot");
+    src: url("../fonts/RalewaySemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewaySemiBold.woff") format("woff"),
+    url("../fonts/RalewaySemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RalewayBold"; */
+@font-face {
+    font-family: "RalewayBold";
+    src: url("../fonts/RalewayBold.eot");
+    src: url("../fonts/RalewayBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayBold.woff") format("woff"),
+    url("../fonts/RalewayBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RalewayExtraBold"; */
+@font-face {
+    font-family: "RalewayExtraBold";
+    src: url("../fonts/RalewayExtraBold.eot");
+    src: url("../fonts/RalewayExtraBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayExtraBold.woff") format("woff"),
+    url("../fonts/RalewayExtraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RalewayBlack"; */
+@font-face {
+    font-family: "RalewayBlack";
+    src: url("../fonts/RalewayBlack.eot");
+    src: url("../fonts/RalewayBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayBlack.woff") format("woff"),
+    url("../fonts/RalewayBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 .main {
-  background: #19b5ffcc;
+  background: rgba(58, 194, 205, 0.7); /*#3AC2CD;*/
   background-image: url("../images/phone.png");
   background-size: cover;
 }
 
-h1 {
+h1.header {
   font-family: "RobotoLight";
   font-size: 5em;
 }
@@ -77,7 +168,7 @@ h2 {
 }
 
 .features {
-  background: #f0ebe9ff;
+  background: #D0F0F3;
 }
 
 .content {
@@ -104,8 +195,20 @@ h2 {
 }
 
 .content p {
-  font-family: "RobotoMedium";
+  font-family: "RobotoRegular";
   font-size: 1.2em;
+}
+
+.content h1 {
+  font-family: "RobotoLight";
+  font-size: 2em;
+  text-align: center;
+
+}
+
+.content h3 {
+  font-size: 1.5em;
+  font-family: "RobotoLight";
 }
 
 .screens {
