@@ -129,20 +129,37 @@
     font-weight: normal;
 }
 
+.section {
+  min-height: 500px;
+}
+
 .main {
-  background: rgba(58, 194, 205, 0.7); /*#3AC2CD;*/
+  /* background: #D1E3F7; /*#3AC2CD;*/
   background-image: url("../images/phone.png");
   background-size: cover;
 }
 
+.features {
+  background: #D1E3F7;
+}
+
 h1.header {
-  font-family: "RobotoLight";
+  font-family: "RalewaySemiBold";
   font-size: 5em;
+  color: #00B9CD;
+  text-shadow: 0 1px 0 #005767;
+  margin: 0;
+}
+
+.icon {
+  width: 10%;
+  padding-right: 20px;
 }
 
 h2 {
-  font-family: "RobotoRegular";
+  font-family: "RalewayRegular";
   font-size: 1.2em;
+  margin: 0 0 20px;
 }
 
 .left {
@@ -167,10 +184,6 @@ h2 {
   width: 20%;
 }
 
-.features {
-  background: #D0F0F3;
-}
-
 .content {
   width: 70%;
   margin: 0 auto;
@@ -181,7 +194,7 @@ h2 {
 }
 
 .slide-1 .right, .slide-3 .right, .slide-5 .right {
-  width: 60%;
+  width: 55%;
   margin: 20% auto;
 }
 
@@ -190,8 +203,8 @@ h2 {
 }
 
 .slide-2 .left, .slide-4 .left {
-  width: 60%;
-  margin: 20% auto;
+  width: 55%;
+  margin: 15% auto;
 }
 
 .content p {
@@ -200,7 +213,7 @@ h2 {
 }
 
 .content h1 {
-  font-family: "RobotoLight";
+  font-family: "RalewayThin";
   font-size: 2em;
   text-align: center;
 
@@ -208,10 +221,49 @@ h2 {
 
 .content h3 {
   font-size: 1.5em;
-  font-family: "RobotoLight";
+  font-family: "RalewayLight";
 }
 
 .screens {
   width: 300px;
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
 }
+
+.social-links {
+  position: absolute;
+  bottom: 0;
+  width: 20%;
+}
+
+.btn-vk {
+  color: #fff;
+  background-color: #587ea3;
+  border-color: rgba(0,0,0,0.2);
+}
+
+.btn-facebook {
+  color: #fff;
+  background-color: #3b5998;
+  border-color: rgba(0,0,0,0.2);
+}
+
+.btn-social-icon {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+ .btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  font-size: 20px;
+  line-height: 2.5;
+  -webkit-user-select: none;
+  margin: 10px 25px;
+}
+  

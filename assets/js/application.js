@@ -1,3 +1,8 @@
 $(document).ready(function() {
-    $('#fullpage').fullpage();
+  $('#fullpage').fullpage({
+    //Navigation
+    lockAnchors: false,
+    anchors:['home', 'features','contacts'],
+    navigation: false,
+  });
 });
