@@ -140,7 +140,7 @@
 }
 
 .features {
-  background: #D1E3F7;
+  background: #f5f5f5;
 }
 
 h1.header {
@@ -198,11 +198,11 @@ h2 {
   margin: 20% auto;
 }
 
-.slide-2 .right, .slide-4 .right {
+.slide-2 .right, .slide-4 .right, .slide-6 .right {
   width: 30%;
 }
 
-.slide-2 .left, .slide-4 .left {
+.slide-2 .left, .slide-4 .left, .slide-6 .left {
   width: 55%;
   margin: 15% auto;
 }
@@ -221,12 +221,14 @@ h2 {
 
 .content h3 {
   font-size: 1.5em;
-  font-family: "RalewayLight";
+  font-family: "RalewayMedium";
+  color: #00B9CD;
 }
 
 .screens {
   width: 300px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+ /*  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+  border: 1px solid #ccc; */
 }
 
 .social-links {
@@ -265,5 +267,13 @@ h2 {
   line-height: 2.5;
   -webkit-user-select: none;
   margin: 10px 25px;
+}
+
+.fp-controlArrow.fp-prev {
+  border-color: transparent #E8E2E2 transparent transparent !important;
+}
+
+.fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent #E8E2E2 !important;
 }
   
