@@ -4,6 +4,6 @@ $(document).ready(function() {
     lockAnchors: false,
     anchors:['home', 'features','contacts'],
     navigation: false,
-    responsiveWidth: 1100,
+    responsiveWidth: 1024,
   });
 });
