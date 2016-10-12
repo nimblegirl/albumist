@@ -89,10 +89,6 @@
     font-weight: normal;
 }
 
-#fullpage {
-  overflow-x: hidden;
-}
-
 .section {
   min-height: 900px;
 }
@@ -102,6 +98,7 @@
   background-image: url("../images/phone.png");
   background-size: cover;
   position: relative;
+  overflow: hidden;
 }
 
 .features {
