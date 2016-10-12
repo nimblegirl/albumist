@@ -95,10 +95,11 @@
 
 .main {
   /* background: #D1E3F7; /*#3AC2CD;*/
-  background-image: url("../images/phone.png");
+  background-image: url("../images/phone2.png");
   background-size: cover;
   position: relative;
   overflow: hidden;
+  background-position-x: 40%;
 }
 
 .features {
@@ -292,6 +293,13 @@ a.btn.btn-social-icon.btn-facebook:hover {
     float: none;
     margin: 0 auto;
     text-align: center;
+    padding: 25px;
+    background: rgba(240,240,240,0.9);
+    box-shadow: 0 1px 10px #005767;
+  }
+
+  .main{
+    background-position-x: 65%;
   }
 
   .icon {
