@@ -90,7 +90,7 @@
 }
 
 #fullpage {
-  /*overflow: hidden;*/
+  overflow-x: hidden;
 }
 
 .section {
