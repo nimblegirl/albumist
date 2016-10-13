@@ -288,6 +288,14 @@ a.btn.btn-social-icon.btn-facebook:hover {
 
 }
 
+@media (max-device-width: 768px) and (orientation: landscape) { 
+  .screens {
+    width: 50%;
+  }
+}
+
+
+
 @media screen and (max-device-width: 768px) { 
   .description {
     float: none;
@@ -302,6 +310,10 @@ a.btn.btn-social-icon.btn-facebook:hover {
   .slide .left, .slide .right {
     width: 80%;
     font-size: 1.5em;
+  }
+
+  .screens {
+    min-height: 500px;
   }
 
   .slide p {
